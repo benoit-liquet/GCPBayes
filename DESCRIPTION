@@ -1,0 +1,15 @@
+Package: GCPBayes
+Type: Package
+Title: Bayesian meta-analysis models to Cross Cancer Genomic
+        Investigation of pleiotropic effects using group structure
+Version: 0.1.2
+Author: Taban Baghfalaki
+Maintainer: Taban Baghfalaki <t.baghfalaki@modares.ac.ir>
+Description: Run a Gibbs sampler for a multivariate Bayesian sparse group selection model with Dirac, continoues and hierarchical spike prior for detecting pleiotropic effects on two traits. This package is designed for summary statistics containing estimated regression coefficients and its estimated covariance matrix.
+License: GPL (>= 2.0)
+Encoding: UTF-8
+Imports: MASS, mvtnorm, invgamma, wiqid, gdata, truncnorm, bayesplot, abind, magrittr
+LazyData: true
+RoxygenNote: 7.1.0.9000
+NeedsCompilation: no
+Packaged: 2020-06-05 09:35:39 UTC; lenovo
