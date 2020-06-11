@@ -152,24 +152,10 @@ Generating summary statistics
 > the number of studies for each variable with nonzero signal by CI and
 > median.
 
-    print(res2$Outputs[[1]]$Criteria)
+    #print(res2$Outputs[[1]]$Criteria)
 
     ## $`Name of Gene`
     ## [1] "simulated_data"
-
-    ## 
-    ## $`Name of SNP`
-    ##  [1]  1  2  3  4  5  6  7  8  9 10
-    ## 
-    ## $`# studies nonzero signal by CI`
-    ##  [1] 2 2 2 2 2 2 2 2 2 2
-    ## 
-    ## $`# studies nonzero signal by Med`
-    ##  [1] 2 2 2 2 2 2 2 2 2 2
-
-    ## $`Name of Gene`
-    ## [1] "simulated_data"
-
 
     ## $`Name of SNP`
     ## [1]  1  2  3  4  5  6  7  8  9 10
