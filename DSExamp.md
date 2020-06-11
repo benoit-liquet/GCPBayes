@@ -58,7 +58,7 @@ Generating summary statistics
 
 ### runing DS function
 
-> For running CS we consider three chains (nchains=3), the lengths of
+> For running DS we consider three chains (nchains=3), the lengths of
 > MCMC iteration and burn-in are set at 1000 and 500, respectively
 > (niter=1000, burnin=500).  
 > Also, we consider kappa0=c(0.5,0.25,0.5) and sigma20=c(1,1.25,1.5) as
