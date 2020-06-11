@@ -155,7 +155,7 @@ Generating summary statistics
 
 ### Trace, density and ACF Plots for unknown parameters
 
-![](pressure-1.png)![](CSExamp_files/figure-markdown_strict/pressure-2.png)![](CSExamp_files/figure-markdown_strict/pressure-3.png)![](CSExamp_files/figure-markdown_strict/pressure-4.png)![](CSExamp_files/figure-markdown_strict/pressure-5.png)![](CSExamp_files/figure-markdown_strict/pressure-6.png)![](CSExamp_files/figure-markdown_strict/pressure-7.png)![](CSExamp_files/figure-markdown_strict/pressure-8.png)![](CSExamp_files/figure-markdown_strict/pressure-9.png)![](CSExamp_files/figure-markdown_strict/pressure-10.png)![](CSExamp_files/figure-markdown_strict/pressure-11.png)![](CSExamp_files/figure-markdown_strict/pressure-12.png)
+![](pressure-1.png)![](pressure-2.png)![](pressure-3.png)![](pressure-4.png)![](pressure-5.png)![](pressure-6.png)![](pressure-7.png)![](pressure-8.png)![](pressure-9.png)![](pressure-10.png)![](pressure-11.png)![](pressure-12.png)
 
 ### Importatnt criteria of chain 1
 
