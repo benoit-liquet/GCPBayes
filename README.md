@@ -28,7 +28,7 @@
 
 
 **Example Usage**
-  > Examples from the GCPaBayes paper can be replicated by following the process described in
+  > Examples from the GCPaBayes can be found in the following:
 
 - CS: This analysis is presented [here](/CSExamp.md)
 - DS: This analysis is presented [here](/DSExamp.md)
