@@ -41,7 +41,7 @@ Generating summary statistics
     | Study_1 | -1.022 | -0.976 | 1.033 | 1.027 | -1.004 | 1.061 | 1.021 | 0.985 | 0.929 | -0.953 |
     | Study_2 | -0.979 | -0.978 | 1.056 | 1.051 | -0.957 | 1.055 | 1.050 | 1.025 | 0.952 | -0.956 |
 
-#### Sigmah\_k, k=1,2
+#### Sigmah\_1=Sigmah\_2
 
     |    | 1       | 2       | 3       | 4       | 5       | 6       | 7       | 8       | 9       | 10      |
     |----|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
@@ -56,14 +56,14 @@ Generating summary statistics
     | 9  | 0.00125 | 0.00125 | 0.00125 | 0.00125 | 0.00125 | 0.00125 | 0.00125 | 0.00125 | 0.0025  | 0.00125 |
     | 10 | 0.00125 | 0.00125 | 0.00125 | 0.00125 | 0.00125 | 0.00125 | 0.00125 | 0.00125 | 0.00125 | 0.0025  |
 
-### runing CS function with
+### runing CS function
 
-> For running CS we consider three chains (nchains=3), 1000 MCMC
-> iteration with burn-in period 500 (niter=1000, burnin=500) and we
-> assume sigma2=10^-3. Also we consider kappa0=c(0.5,0.25,0.5),
-> tau20=c(1,1.25,1.5), zeta10=rep(zinit\[1\],3) and zeta20
-> =rep(zinit\[2\],3) as initial values. The hyperparameters are
-> considered as a1=.1, a2=1, c1=0.1 and c2=1,
+> For running CS we consider three chains (nchains=3), the lengths of
+> MCMC iteration and burn-in are set at 1000 and 500, respectively
+> (niter=1000, burnin=500). We assume sigma2=10^-3. Also, we consider
+> kappa0=c(0.5,0.25,0.5), tau20=c(1,1.25,1.5), zeta10=rep(zinit\[1\],3)
+> and zeta20 =rep(zinit\[2\],3) as initial values. The hyperparameters
+> are considered as a1=.1, a2=1, c1=0.1 and c2=1.
 
     Betah1=Betah[1,]; Betah2=Betah[2,];
     Sigmah1=Sigma; Sigmah2=Sigma;
@@ -157,16 +157,18 @@ Generating summary statistics
 
 ![](pressure-1.png)![](pressure-2.png)![](pressure-3.png)![](pressure-4.png)![](pressure-5.png)![](pressure-6.png)![](pressure-7.png)![](pressure-8.png)![](pressure-9.png)![](pressure-10.png)![](pressure-11.png)![](pressure-12.png)
 
-### Importatnt criteria of chain 1
+### Important criteria for chain 1
 
-> The output of this part includes log\_10BF and lBFDR for testing H0,
-> theta for detecting group and detecting variable pleiotropy using the
-> number of studies for each variable with nonzero signal by CI.
+> The output of this part includes log\_10BF and lBFDR for testing H0
+> and theta for detecting group pleiotropy. Also, detecting variable
+> pleiotropy using the number of studies for each variable with nonzero
+> signal by CI can be preformed.
 
     #print(res2$Outputs[[1]]$Criteria)
 
     ## $`Name of Gene`
     ## [1] "simulated_data"
+
 
     ## $`Name of SNP`
     ## [1]  1  2  3  4  5  6  7  8  9 10
